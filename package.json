@@ -1,0 +1,24 @@
+{
+  "name": "weather-node-app",
+  "version": "1.0.0",
+  "description": "web server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lakshmangope/weather-node-app.git"
+  },
+  "author": "Lakshman Gope",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
