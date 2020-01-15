@@ -1,53 +1,45 @@
 # Weather Web App
+This is a rudimentary node app to check current weather conditions on a specified location. My motivation for
+making this app was to have a clean way to get my current city weather information. ☁☁
 
-## Installing
+## Technologies Used :
+<ul>
+  <li><span>handlebarsjs</span></li>
+  <li><span>css3</span></li>
+  <li><span>Nodejs</span></li>
+  <li><span>Expressjs</span></li>
+  <li><span>Mapbox API</span></li>
+  <li><span>Darksky API</span></li>
+</ul>
 
-```bash
-Locally :
-# Install all dependencies
-$ npm install
-or
-$ npm i request
+## Key Features :
+Some of the standout features of the project are:
+1. Check weather by place name.
+2. Check weather by zip code.
+3. Chance of rain.
+4. high & low temp.
 
-# Create packge.json or Initialize the projet as npm project
-$ npm init
-# Yes with all default values
-$ npm init -y
+### Home Page :
+![check-weather-home](https://user-images.githubusercontent.com/58518192/72455482-0c381400-37ed-11ea-9c7b-22498ce0d4b8.png)
 
-# Install webpack as development dependency of your project
-$ npm install webpack --save-dev
+### To run this project :
+You can fork the app or you can git-clone the app into your local machine. Once done that, please install all the dependencies by running
 
-# Install jquery as a dependency
-$ npm install jquery --save
+`$ git clone https://github.com/lgope/check-weather`
 
-# Uninstall jquery
-$ npm uninstall jquery --save
+`$ cd check-weather`
 
-# hbs install (handlebarsjs)
-$ npm i hbs
+Install project dependencies:
+`$ npm install`
 
+Start the app:
+`$ npm start`
 
-Globally :
-# Install live server for Win
-$ npm install live-server --global
+#### Future Updates
+* Enable PWA
+* Leaderboard
 
-# For Mac or Linux
-$ sudo npm install live-server --global
+And More ! There's always room for improvement!
 
-# Open live server
-$ live-server
-
-General :
-
-# Run node app
-$ node app.js
-
-# Expressjs install
-$ npm install express --save
-
-#Restart nodemon with other extentions
-$ nodemon app.js -e otherExtentions
-```
-
-## Visit
-Here is the deployed version 👉 https://lakshman-weather-app.herokuapp.com
+#### Deployed Version (Feel free to visit) 👇
+https://lakshman-weather-app.herokuapp.com/
