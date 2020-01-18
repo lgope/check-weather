@@ -2,6 +2,18 @@
 This is a rudimentary node app to check current weather conditions on a specified location. My motivation for
 making this app was to have a clean way to get my current city weather information. ☁☁
 
+
+## Key Features :
+Some of the standout features of the project are:
+1. Check weather by place name.
+2. Check weather by zip code.
+3. Chance of rain.
+4. high & low temp.
+5. Responsive 
+
+### Home Page :
+![check-weather-home](https://user-images.githubusercontent.com/58518192/72455482-0c381400-37ed-11ea-9c7b-22498ce0d4b8.png)
+
 ## Technologies Used :
 <ul>
   <li><span>handlebarsjs</span></li>
@@ -11,16 +23,6 @@ making this app was to have a clean way to get my current city weather informati
   <li><span>Mapbox API</span></li>
   <li><span>Darksky API</span></li>
 </ul>
-
-## Key Features :
-Some of the standout features of the project are:
-1. Check weather by place name.
-2. Check weather by zip code.
-3. Chance of rain.
-4. high & low temp.
-
-### Home Page :
-![check-weather-home](https://user-images.githubusercontent.com/58518192/72455482-0c381400-37ed-11ea-9c7b-22498ce0d4b8.png)
 
 ### To run this project :
 You can fork the app or you can git-clone the app into your local machine. Once done that, please install all the dependencies by running
