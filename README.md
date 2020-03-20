@@ -1,53 +1,47 @@
 # Weather Web App
-
-## Installing
-
-```bash
-Locally :
-# Install all dependencies
-$ npm install
-or
-$ npm i request
-
-# Create packge.json or Initialize the projet as npm project
-$ npm init
-# Yes with all default values
-$ npm init -y
-
-# Install webpack as development dependency of your project
-$ npm install webpack --save-dev
-
-# Install jquery as a dependency
-$ npm install jquery --save
-
-# Uninstall jquery
-$ npm uninstall jquery --save
-
-# hbs install (handlebarsjs)
-$ npm i hbs
+This is a rudimentary node app to check current weather conditions on a specified location. My motivation for
+making this app was to have a clean way to get my current city weather information. ☁☁
 
 
-Globally :
-# Install live server for Win
-$ npm install live-server --global
+## Key Features :
+Some of the standout features of the project are:
+1. Check weather by place name.
+2. Check weather by zip code.
+3. Chance of rain.
+4. high & low temp.
+5. Responsive 
 
-# For Mac or Linux
-$ sudo npm install live-server --global
+### Home Page :
+![check-weather-home](https://user-images.githubusercontent.com/58518192/72455482-0c381400-37ed-11ea-9c7b-22498ce0d4b8.png)
 
-# Open live server
-$ live-server
+## Technologies Used :
+<ul>
+  <li><span>handlebarsjs</span></li>
+  <li><span>css3</span></li>
+  <li><span>Nodejs</span></li>
+  <li><span>Expressjs</span></li>
+  <li><span>Mapbox API</span></li>
+  <li><span>Darksky API</span></li>
+</ul>
 
-General :
+### To run this project :
+You can fork the app or you can git-clone the app into your local machine. Once done that, please install all the dependencies by running
 
-# Run node app
-$ node app.js
+`$ git clone https://github.com/lgope/check-weather`
 
-# Expressjs install
-$ npm install express --save
+`$ cd check-weather`
 
-#Restart nodemon with other extentions
-$ nodemon app.js -e otherExtentions
-```
+Install project dependencies:
+`$ npm install`
 
-## Visit
-Here is the deployed version 👉 https://lakshman-weather-app.herokuapp.com
+Start the app:
+`$ npm start`
+
+#### Future Updates
+* Enable PWA
+* Leaderboard
+
+And More ! There's always room for improvement!
+
+#### Deployed Version (Feel free to visit) 👇
+https://lakshman-weather-app.herokuapp.com/
