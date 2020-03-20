@@ -16,10 +16,10 @@
   "dependencies": {
     "express": "^4.17.1",
     "handlebars": "^4.5.3",
-    "hbs": "^4.0.4",
+    "hbs": "^4.1.0",
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
+    "nodemon": "^2.0.2"
   }
 }
